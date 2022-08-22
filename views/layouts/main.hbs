@@ -18,42 +18,29 @@
   <header>
     {{#if user}}
     <nav class="nav-extended">
-      <div class="nav-wrapper blue accent-4 ">
+      <div class="nav-wrapper teal darken-">
         <div class="container">
           <a href="/" class="brand-logo"><i class="material-icons">android</i>Tech Blog</a>
           <ul class="right hide-on-med-and-down">
             <li><a href="#page-footer"><i>References</i></a></li>
             <li><a href="#page-footer"><i>Contact</i></a></li>
             <li><a href="#"><i><span class="email">{{user.email}}</span></i></a></li>
-            <li><a class="waves-effect waves-light orange lighten-2 btn blue-text text-darken-2" href="/auth/logout"><i
-                  class="material-icons right"></i>Log Out</a></li>
+            <li><a class="waves-effect waves-light white btn black-text" href="/auth/logout"><i
+                  class="material-icons right "></i>Log Out</a></li>
           </ul>
         </div>
       </div>
-      <div class="nav-content orange lighten-2 ">
-        <ul class="tabs tabs-transparent ">
-          <li class="tab"><a class="active blue-text text-darken-2" href="/" target="_self">Dashboard</a></li>
-          <li class="tab"><a class="blue-text text-darken-2" href="/saved" target="_self">test</a></li>
-        </ul>
-      </div>
     </nav>
-    <ul class="sidenav right" id="mobile-demo">
-      <li><a href="#page-footer"><i>Information</i></a></li>
-      <li><a href="#page-footer"><i>Support</i></a></li>
-      <li><a href="#"><span class="email">{{user.email}}</span></a></li>
-      <li><a class="waves-effect waves-light orange lighten-2 btn blue-text text-darken-2" href="/auth/logout"><i
-            class="material-icons right"></i>Log Out</a></li>
-    </ul>
     {{else}}
     <nav>
-      <div class="nav-wrapper blue accent-4">
+      <div class="nav-wrapper teal darken-3">
         <a href="#!" class="brand-logo"><i class="material-icons">android</i>Tech Blog</a>
         <a href="/" class="brand-logo"><i class="material-icons">android</i>Tech Blog</a>
         <div class="right">
-          <a class="waves-effect waves-light orange lighten-2 btn blue-text text-darken-2 hoverable" href="/login">Log
+          <a class="waves-effect waves-light white btn black-text hoverable" href="/login">Log
             In</a>
           <span>or</span>
-          <a class="waves-effect waves-light orange lighten-2 btn blue-text text-darken-2 hoverable"
+          <a class="waves-effect waves-light white btn black-text hoverable"
             href="/register">Join Now</a>
         </div>
       </div>
@@ -70,7 +57,7 @@
   <script src="js/browser.js"></script>
 
 </body>
-<footer id="page-footer" class="page-footer col s12 blue accent-4">
+<footer id="page-footer" class="page-footer col s12 teal darken-3">
   <div class="container">
     <div class="row">
       <div class="col l6 s12">
