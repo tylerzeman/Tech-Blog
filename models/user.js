@@ -29,7 +29,7 @@ User.init({
         }
     }
 }, {
-    sequelize: require('../config/db_connection'),
+    sequelize: require('../config/connection'),
     modelName: 'user',
     hooks: {
         async beforeCreate(user) {

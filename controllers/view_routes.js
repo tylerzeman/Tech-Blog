@@ -30,3 +30,4 @@ view_router.get('/register', isLoggedIn, (req, res) => {
     res.render('register', { errors: req.session.errors});
 });
 
+module.exports = view_router;
