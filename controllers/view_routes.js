@@ -1,6 +1,6 @@
 const view_router = require('express').Router();
 const { isLoggedIn } = require('./helpers');
-const User = require('../models/User');
+const User = require('../models/user');
 
 view_router.get('/', isLoggedIn, (req, res) => {
     const user_id = req.session.user_id;
