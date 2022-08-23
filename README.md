@@ -8,7 +8,7 @@
 
 -- [Demo](#Demo)
 
--- [DeployedSite](#Deployed Site)
+-- [Heroku](#Heroku)
 
 ## Description
 
@@ -29,6 +29,6 @@ express, handlebars, and mysql2
 Soon to be added.
 
 
-## Deployed Site
+## Heroku
 
 https://git.heroku.com/techblog-tz.git
