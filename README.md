@@ -31,4 +31,4 @@ Soon to be added.
 
 ## Heroku
 
- https://jate-tz.herokuapp.com/
+(https://techblog-tz.herokuapp.com/)
